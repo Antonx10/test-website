@@ -4,7 +4,7 @@
     outline-color: red;
 }
 
-article > div{
+#six > div{
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -46,4 +46,57 @@ article > div{
 ul > li {
     display: none;
     visibility: hidden;
+}
+
+#hi{
+    left: 700px;
+    background-color: blueviolet;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 150px;
+    margin-left: 10px;
+    overflow:auto;
+}
+
+#bebe {
+    background-color: aqua;
+}
+
+#futa {
+    background-color: cornflowerblue;
+}
+ 
+#five{
+    float: left;
+    right: 650px;
+    width: 50%;
+    height: 200px;
+    background-color: blue;
+    margin-top: 300px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: silver;
+    border-width: 5px;
+}
+
+#five > p, #pfive{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+article > aside{
+    top:500px;
+    float: left;
+    width: 30%;
+    height: 200px;
+    border-radius: 5px;
+    background-color: blueviolet;
+    border-style: dotted;
+    border-color: aqua;
+    border-width: 7px;
+}
+
+aside:hover{
+    border-color: rosybrown;
 }
