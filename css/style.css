@@ -4,6 +4,10 @@
     outline-color: red;
 }
 
+body{
+    background-color: greenyellow;
+}
+
 #six > div{
     margin-top: 10px;
     margin-bottom: 10px;
